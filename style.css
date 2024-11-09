@@ -1,11 +1,57 @@
 body {
     font-family: Arial,  sans-serif; /* Familia de fuentes */
     font-size: 11px; /* El tamaño de la fuente principal en el tag <p></p> */
-    background-color: #f0f0f0; /* El color del fondo de la página web */
-    color: #070707; /* El color del texto*/ 
+    background-color: #080808; /* El color del fondo de la página web */
+    color: #fdfcfc; /* El color del texto*/ 
 }
 h1 {
-    color: #00a800; /* El color de la cabecera */
-    font-size: 24px; /* El tamaño de la fuente de la cabecera */
+    color: #a80000; /* El color de la cabecera */
+    font-size: 30px; /* El tamaño de la fuente de la cabecera */
     font-family: Georgia, serif; /* La familia tipográfica utilizada en la cabecera */
+    
+}
+h1:hover { animation: color-change 3s infinite; }
+
+img {
+    max-width: 50%;
+    height: auto;
+    margin: 20px 0;
+  }
+@keyframes color-change {
+    0% {
+      color: rgb(255, 0, 0);
+    }
+
+    25% {
+        color: rgb(255, 136, 0);
+    }
+    50% {
+      color: rgb(255, 251, 0);
+    }
+  
+    75% {
+      color: rgb(255, 166, 0);
+    }
+
+    100% {
+        color: rgb(255, 0, 0);
+      }
+}
+
+/* Botón animado */
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 20px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+button:hover {
+    background-color: #45a049;
+    animation: color-change 3s infinite;
 }
