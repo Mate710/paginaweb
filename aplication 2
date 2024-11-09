@@ -1,0 +1,27 @@
+<html>
+<head>
+    <title>Así es como se llamará la pestaña en el navegador</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+</head>
+<body>
+    <h1>Dependencias Tecnológicas</h1>
+    <p>
+        Las dependencias tecnológicas son un fenómeno creciente en la sociedad moderna. 
+        A continuación, se presentan algunas de las dependencias tecnológicas más comunes:
+    </p>
+    
+    <!-- Imagen sobre dependencias tecnológicas -->
+    <img src="https://psicoter.com.br/wp-content/uploads/2022/04/Dependencia-Tecnologica-768x496.png" 
+         alt="Imagen relacionada con dependencias tecnológicas">
+    <!-- Widget del podcast de Spotify -->
+    <h2>Escucha más sobre la dependencia tecnológica</h2>
+    <p>
+        A continuación, se presenta un episodio de un podcast que habla sobre la dependencia tecnológica.
+        Dale play y descubre más sobre este fenómeno.
+    </p>
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/3pfZ38YeFQbiesr572BLWu?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <!-- Botón con animación al pasar el ratón -->
+    <button id="animated-button">¡Tómate un descanso tecnológico!</button>
+</body>
+</html>
